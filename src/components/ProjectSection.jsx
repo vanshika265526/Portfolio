@@ -58,10 +58,13 @@ export const ProjectSection = () => {
                 projectImage={project.image}
                 title={project.title}
                 subTitle={project.subTitle}
+                duration={project.duration}
+                description={project.insights.desc}
                 setOpenInsights={(status) =>
                   handleInsightPanel(status, project)
                 }
                 githubLink={project.githubLink}
+                liveLink={project.liveLink}
               />
             );
           })}

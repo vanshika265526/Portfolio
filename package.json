@@ -1,5 +1,5 @@
 {
-  "name": "irfan-dev",
+  "name": "vanshika-dev",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,6 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "backend": "node server.js",
     "start": "node server.js"
   },
   "dependencies": {

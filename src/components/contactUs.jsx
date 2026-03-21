@@ -21,7 +21,7 @@ export const ContactUs = () => {
     e.preventDefault();
     setStatus("Sending...");
     try {
-      const response = await fetch("https://irfan-devs.vercel.app/api/server", {
+      const response = await fetch("/api/server", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
