@@ -21,17 +21,17 @@ export const Navbar = () => {
 
   return (
     <>
-      <div className="flex w-full justify-center">
-        <nav className="flex h-[15vh] w-full justify-between items-center px-6 md:px-16 py-8">
+      <div className="flex w-full justify-center fixed top-0 left-0 z-50 p-4 pointer-events-none">
+        <nav className="flex h-14 w-full max-w-[1100px] justify-between items-center px-6 md:px-10 bg-color3/40 backdrop-blur-xl border border-white/5 rounded-2xl shadow-2xl shadow-black/40 pointer-events-auto">
           <div className="logo z-30 flex items-center">
-            <span className="text-white text-lg md:text-xl font-bold lowercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-color1 to-color2">vanshika.portfolio</span>
+            <span className="text-white text-sm md:text-base font-bold lowercase tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-color1 to-color2">vanshika.portfolio</span>
           </div>
           <div onClick={() => setToggle(!toggle)} className="menu lg:hidden z-30 cursor-pointer">
-            <img className="w-8" src={menu} alt="" />
+            <img className="w-6" src={menu} alt="" />
           </div>
-          <div className="menu-items hidden lg:flex gap-4 xl:gap-6 text-[8px] xl:text-[10px] text-white uppercase z-30">
+          <div className="menu-items hidden lg:flex gap-4 xl:gap-5 text-[7px] xl:text-[9px] text-white uppercase z-30 font-bold">
             {navLinks.map((link, idx) => (
-              <a key={idx} href={link.href} className="menu-item cursor-pointer hover:text-white/60 transition-colors">
+              <a key={idx} href={link.href} className="menu-item cursor-pointer hover:text-color1 transition-colors">
                 {link.name}
               </a>
             ))}

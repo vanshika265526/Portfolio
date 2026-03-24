@@ -7,13 +7,13 @@ export default {
   theme: {
     extend: {
       backgroundImage:{
-        deepBlue:"linear-gradient(135deg, #0d0b1a 0%, #2b1044 50%, #150f24 100%)",
-        fontBlue:"linear-gradient(50deg, #fbc2eb 0%, #a6c1ee 100%)",
+        deepBlue:"linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #020617 100%)",
+        fontBlue:"linear-gradient(50deg, #c4b5fd 0%, #67e8f9 100%)",
       },
       colors:{
-        color1:"#ec4899",
-        color1Hover:"#db2777",
-        color2:"#38bdf8",
+        color1:"#8b5cf6",
+        color1Hover:"#7c3aed",
+        color2:"#06b6d4",
         color3:"#0d0b1a",
       },
       fontFamily:{

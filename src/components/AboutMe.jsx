@@ -1,6 +1,6 @@
 import { easeInOut, motion } from "motion/react";
 import doc from "../assets/doc/Vanshika General CV.pdf";
-import femaleAvatar from "../assets/images/female-avatar.png";
+import femaleAvatar from "../assets/images/image.png";
 export const AboutMe = () => {
   return (
     <>
