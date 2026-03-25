@@ -47,17 +47,7 @@ export const ResumeSection = () => {
         ]
       }
     ],
-    training: {
-      title: "W3Grads (FLAMES 2025)",
-      period: "Jun’ 25 – Aug’ 25",
-      details: "MERN Stack and GEN AI",
-      points: [
-        "Developed full stack web applications using React, Node, Express and MongoDB with modular and scalable architecture.",
-        "Enhanced client-server communication and CRUD pipelines to reduce latency and optimize data handling.",
-        "Deployed using cloud pipelines with secure environment configurations, improving reliability by 60%.",
-        "Project Worked On: Swasth AI (AI Healthcare Assistant)"
-      ]
-    },
+
     certificates: [
       "NodeJS | HackerRank (Oct’ 25)",
       "Frontend Developer (React) | HackerRank (Oct’ 25)",
@@ -185,20 +175,7 @@ export const ResumeSection = () => {
 
               {/* Training & Achievements right column */}
               <div className="md:col-span-1 space-y-8">
-                {/* Training */}
-                <section>
-                  <h3 className="text-xs font-bold text-color1 uppercase tracking-widest mb-3 border-l-2 border-color1 pl-3">Training</h3>
-                  <div className="pl-4">
-                    <div className="flex justify-between items-baseline mb-1">
-                        <h4 className="text-[13px] font-bold text-white">{resumeData.training.title}</h4>
-                        <span className="text-[9px] text-white/40 italic">{resumeData.training.period}</span>
-                    </div>
-                    <p className="text-color2 text-[10px] font-medium mb-2">{resumeData.training.details}</p>
-                    <ul className="list-disc list-outside ml-3 space-y-1 text-white/70 text-[10px] leading-snug">
-                        {resumeData.training.points.map((pt, j) => <li key={j}>{pt}</li>)}
-                    </ul>
-                  </div>
-                </section>
+
 
                 {/* Achievements */}
                 <section>

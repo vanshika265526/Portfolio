@@ -8,7 +8,6 @@ import { EducationSection } from "./components/EducationSection";
 import { SkillsSection } from "./components/SkillsSection";
 import { CertificatesSection } from "./components/CertificatesSection";
 import { AchievementsSection } from "./components/AchievementsSection";
-import { SummerTrainingSection } from "./components/SummerTrainingSection";
 import { Analytics } from "@vercel/analytics/react";
 
 function App() {
@@ -24,7 +23,6 @@ function App() {
         <ProjectSection />
         <CertificatesSection />
         <AchievementsSection />
-        <SummerTrainingSection />
         <ContactUs />
       </div>
       <Analytics />
